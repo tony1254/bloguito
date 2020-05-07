@@ -39,6 +39,22 @@
                       <li class="nav-item">
                         <a class="nav-link" href="/comentarios">Comentarios</a>
                       </li>
+                      <div class="btn-group">
+                         <button type="button" class="btn btn-danger">Grupo 1</button>
+                        <button type="button" class="btn btn-danger dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <span class="sr-only">Toggle Dropdown</span>
+                        </button>
+                        <div class="dropdown-menu">
+                            <a class="dropdown-item" href="#">Integrantes:</a>
+                            <a class="dropdown-item" href="#">Eddy Alexander Reynoso</a>
+                            <a class="dropdown-item" href="#">Harold Alexander Ochaeta</a>
+                            <a class="dropdown-item" href="#">Denilson Burgos</a>
+                            <a class="dropdown-item" href="#">Lornna Yeraldy</a>
+                            <a class="dropdown-item" href="#">Elizabeth Rodriguez</a>
+                            <a class="dropdown-item" href="#">Cristopher</a>
+                            <div class="dropdown-divider"></div>
+                        </div>
+                        </div>
                       <li class="nav-item">
                         <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
                       </li>
