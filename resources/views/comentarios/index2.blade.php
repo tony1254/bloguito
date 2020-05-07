@@ -21,7 +21,9 @@
                             </div>
                             <p class="mb-1">{{$comentario->titulo}}</p>
                             <small>{{$comentario->descripcion}}</small>
-                        </a>
+                            <button type="button" class="btn btn-primary">Editar</button>
+                            <button type="button" class="btn btn-danger">Eliminar</button>
+                        </a>                      
                         @endforeach
                     </div>
 
