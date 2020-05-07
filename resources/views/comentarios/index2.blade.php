@@ -11,8 +11,6 @@
 
                 <div class="card-body">
 
-                <a type="button" href="comentarios2/create" class="btn btn-success">Agregar</a>
-
                     <div class="list-group">
                         @foreach ($comentarios as $comentario)
 
@@ -26,6 +24,8 @@
                         </a>
                         @endforeach
                     </div>
+
+                    <a type="button" href="comentarios2/create" class="btn btn-success btn-block">Agregar</a>
 
                 </div>
             </div>
